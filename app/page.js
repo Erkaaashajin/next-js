@@ -26,7 +26,7 @@ export default function Home() {
       <img
         className=""
         src="https://portfolio-rust-eight-16.vercel.app/profile.jpg"
-      />
+      />  
     </div>
   );
 }
