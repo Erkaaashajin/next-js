@@ -5,7 +5,9 @@ export default function Home() {
     <div className="w-[20vw] h-full flex ml-[300px] mt-[200px]">
       <div>
         <div>
-          <h1 className="text-[40px] text-black font-bold" >Hi! I'm Erdenesaikhan👋</h1>
+          <h1 className="text-[40px] text-black font-bold">
+            Hi! I'm Erdenesaikhan👋
+          </h1>
           <p className="w-[1000px] h-[200px] text-black font-bold text-[24px]">
             I'm a full stack developer (React.js & Node.js) with a focus on{" "}
             <br />
@@ -16,7 +18,9 @@ export default function Home() {
         </div>
 
         <div>
-          <span className="font-bold text-black text-[30px]">Ulaanbaatar, Mongolia</span>
+          <span className="font-bold text-black text-[30px]">
+            Ulaanbaatar, Mongolia
+          </span>
         </div>
       </div>
       <img
