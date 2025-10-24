@@ -5,7 +5,7 @@ export default function Skills() {
   const data = [{ id: 1, img: "/image copy.png", text: "JavaScript" }];
 
   return (
-    <div>
+    <div className="w-full flex items-center h-screen justify-center">
       <div className="grid  grid-cols-2  gap-[50px]  sm:grid-cols-3">
         {data.map((item, index) => (
           <div className="w-[100px] h-[100px] bg-red-500">
