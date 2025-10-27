@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="w-full h-[200px] flex justify-around items-center bg-black">
+    <div className="w-full lg:h-[200px] sm:h-[150px] flex justify-around items-center bg-black">
       <Link href={"/"}>
         <img
           className="w-[140px] h-[100px] rounded-[2100px]"
@@ -12,11 +12,11 @@ export default function Header() {
       <div className="gap-[70px] flex">
         <Link href={"/skills"}>
           {" "}
-          <h1 className="text-[40px] text-white">My Skills </h1>{" "}
+          <h1 className="text-[40px] text-white sm:text-[27px] " >My Skills </h1>{" "}
         </Link>
         <Link href={"/contact"}>
           {" "}
-          <h1 className="text-[40px] text-white"> Contact Info </h1>{" "}
+          <h1 className="text-[40px] text-white sm:text-[27px] "> Contact Info </h1>{" "}
         </Link>
       </div>
     </div>

@@ -1,16 +1,18 @@
 export default function Contact() {
   return (
-    <div className="ml-[300px] mt-[200px] flex flex-row gap-[700px]">
+    <div className="lg:ml-[300px] lg:mt-[200px] flex flex-row lg:gap-[700px] sm:p-8 ">
       {" "}
-      <div className="flex flex-col gap-[60px]">
+      <div className="flex flex-col lg:gap-[60px] sm:gap-[10px]">
         <div>
           <div>
             {" "}
-            <h1 className="text-black text-[40px] font-bold">Contact me on:</h1>
+            <h1 className="text-black lg:text-[40px] sm:text-[27px] font-bold">
+              Contact me on:
+            </h1>
           </div>
-          <div className="mt-[30px]">
+          <div className="lg:mt-[30px]">
             {" "}
-            <h2 className=" text-[30px]">
+            <h2 className=" lg:text-[30px] sm:text-[20px]">
               <p className="text-black">Instagram:</p>{" "}
               <a
                 className="text-[#047FD1]"
@@ -23,7 +25,7 @@ export default function Contact() {
         </div>
         <div>
           <div>
-            <h2 className=" text-[30px]">
+            <h2 className="lg:text-[30px] sm:text-[20px]">
               <p className="text-black">Facebook:</p>{" "}
               <a
                 className="text-[#047FD1]"
@@ -36,9 +38,9 @@ export default function Contact() {
         </div>
         <div>
           <div>
-            <h2 className=" text-[30px]">
+            <h2 className="lg:text-[30px] sm:text-[20px]">
               <p className="text-black">Phone:</p>{" "}
-              <p className="text-[#047FD1]">+976-9047-5522</p>
+              <p className="text-[#047FD1] lg:text-[30px] sm:text-[17px]">+976-9047-5522</p>
             </h2>
           </div>
         </div>
